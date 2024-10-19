@@ -1,0 +1,30 @@
+.projetos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px; 
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    margin: 0 0 8px;
+  }
+  
+  .card p {
+    margin: 0 0 16px;
+  }
+  
+  .card a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  

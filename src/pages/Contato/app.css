@@ -1,0 +1,29 @@
+/* Container da tabela */
+.table-container {
+    margin: 20px;
+    overflow-x: auto; /* Allows horizontal scrolling on small screens */
+  }
+  
+  /* Estilo tabela */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    min-width: 800px; 
+  }
+  
+  /* Estilo header tabela*/
+  th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  /* Estilo body tabela */
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
