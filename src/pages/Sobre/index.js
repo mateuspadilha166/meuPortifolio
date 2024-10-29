@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from "react-router-dom";
 import './sobre.css';
 import gogeta from './gogeta.jpg'; 
